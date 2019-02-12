@@ -13,7 +13,7 @@ with open("labels.pickle", 'rb') as f:
 	labels ={v:k for k,v in og_labels.items()}
 
 #fetching the video
-cap = cv2.VideoCapture("D:\\phone\\test6.mp4")
+cap = cv2.VideoCapture("C:\\Users\\user\\Desktop\\ddddd(2)\\videos\\test.mp4")
 
 #reading the video
 while(cap.isOpened()):
